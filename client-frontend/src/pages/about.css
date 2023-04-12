@@ -1,0 +1,11 @@
+.About hr{
+    width: 50%;
+}
+
+.About .section{
+    margin-bottom: 100px;
+}
+
+.About .heading{
+    font-size: 30px;
+}

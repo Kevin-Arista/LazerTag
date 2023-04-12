@@ -1,15 +1,15 @@
-.Home h1{
+.Home #hero-text{
     font-size: 200px;
 }
 
 @media screen and (max-width: 1000px){
-    .Home h1{
-        font-size: 100px;
+    .Home #hero-text{
+        font-size: 170px;
     }
 }
 
-@media screen and (max-width: 7000px){
-    .Home h1{
-        font-size: 50px;
+@media screen and (max-width: 700px){
+    .Home #hero-text{
+        font-size: 90px;
     }
 }
