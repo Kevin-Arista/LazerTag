@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&family=Raleway:wght@300&display=swap');
+
+.NavComponent{
+    margin-top: -18px;
+}
+
 ul{
     list-style-type: none;
-    color: blue;
+    background-color: black;
+    border-bottom: cyan 1px solid;
     text-align: center;
+    padding: 30px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+}
+
+a, a:visited{
+    color: white;
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    padding: 30px 6%;
+    font-size: 30px;
+    cursor: cell;
+}
+a:hover{
+    color: cyan;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px){
+    li{
+        display: block;
+        padding: 10px 0px 10px 0px;
+    }
 }

@@ -7,7 +7,7 @@ function NavComponent(props){
         <div className="NavComponent">
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">LazzarX</Link>
                 </li>
                 <li>
                     <Link to="/about">About</Link>

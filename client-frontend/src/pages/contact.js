@@ -3,7 +3,8 @@ import React from 'react';
 function Contact(props){
     return(
         <div className="Contact">
-            This is the contact page!
+            <h1>Contact</h1>
+            <p>ka2902@columbia.edu</p>
         </div>
     );
 }

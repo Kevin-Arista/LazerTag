@@ -1,0 +1,14 @@
+.MemberCard{
+    width: 400px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: white 3px solid;
+    color: white;
+    margin: 0px 50px 0px 50px;
+}
+
+.MemberCard img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
