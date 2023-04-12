@@ -4,7 +4,7 @@ import './footer-component.css';
 function Footer(props){
     return(
         <div className="Footer">
-            LazzarX
+            <h1>LazzarX</h1>
         </div>
     )
 }

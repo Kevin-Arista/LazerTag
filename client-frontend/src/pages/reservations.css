@@ -1,14 +1,16 @@
 
 .Reservations{
-    margin: 10% 20% 10% 20%;
+    margin: 2% 20% 10% 20%;
     padding: 20px;
 }
+
 .Reservations h3{
-    border: 1px white solid;  
+    border: 1px white solid;
 }
+
 .Reservations form{
     margin: 0px 100px 0px 100px;
-    border: 1px white solid; 
+    border: 1px cyan solid; 
     background-color: rgba(255, 255, 255, 0); 
     padding: 50px;
 }
@@ -27,6 +29,14 @@ input[type="text"]{
 
 input:focus{
     outline: none;
+}
+
+#button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px white solid;
+    width: 50%;
+    height: 70px;
 }
 
 @media screen and (max-width: 1000px){

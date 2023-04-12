@@ -1,17 +1,17 @@
 .Home{
-    padding: 400px 0px;
+    padding: 200px 0px;
     text-align: center;
 }
 .About{
-    padding: 100px 0;
+    
     text-align: center;
 }
 .Reservations{
-    padding: 100px 0px;
+    padding: 0px 0px;
     text-align: center;
 }
 .Contact{
-    padding: 330px 0px;
+    padding-bottom: 100px;
     text-align: center;
 }
 .MemberCard{

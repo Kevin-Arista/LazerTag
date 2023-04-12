@@ -1,0 +1,15 @@
+.Home h1{
+    font-size: 200px;
+}
+
+@media screen and (max-width: 1000px){
+    .Home h1{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 7000px){
+    .Home h1{
+        font-size: 50px;
+    }
+}
