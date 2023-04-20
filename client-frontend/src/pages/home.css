@@ -1,5 +1,6 @@
 .Home #hero-text{
     font-size: 200px;
+    margin-bottom: 50vh;
 }
 
 @media screen and (max-width: 1000px){

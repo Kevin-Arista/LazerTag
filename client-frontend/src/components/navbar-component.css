@@ -34,4 +34,7 @@ a:hover{
         display: block;
         padding: 10px 0px 10px 0px;
     }
+    ul{
+        padding: 10px 6%;
+    }
 }

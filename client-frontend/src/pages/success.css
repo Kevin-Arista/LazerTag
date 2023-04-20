@@ -1,0 +1,16 @@
+.greeting {
+	height: 75vh;
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.greeting {
+		height: 64vh;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.greeting {
+		height: 50vh;
+	}
+}
