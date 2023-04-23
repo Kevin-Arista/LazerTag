@@ -1,16 +1,24 @@
-.Home #hero-text{
-    font-size: 200px;
-    margin-bottom: 50vh;
+.Home #hero-text {
+	font-size: 200px;
+	margin-bottom: -10px;
 }
 
-@media screen and (max-width: 1000px){
-    .Home #hero-text{
-        font-size: 170px;
-    }
+.Home .filler {
+	height: 40vh;
 }
 
-@media screen and (max-width: 700px){
-    .Home #hero-text{
-        font-size: 90px;
-    }
+.Home .warning {
+	color: cyan;
+}
+
+@media screen and (max-width: 1000px) {
+	.Home #hero-text {
+		font-size: 170px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.Home #hero-text {
+		font-size: 70px;
+	}
 }

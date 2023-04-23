@@ -1,11 +1,24 @@
-.About hr{
-    width: 50%;
+.About hr {
+	width: 50%;
 }
 
-.About .section{
-    margin-bottom: 100px;
+.About .section {
+	margin-bottom: 100px;
+	padding: 5% 20%;
+	background-color: rgba(255, 255, 255, 0.15);
+	margin: 0px 100px 50px 100px;
+	border-top: 3px solid white;
 }
 
-.About .heading{
-    font-size: 30px;
+.About .heading {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+	.About .heading {
+		font-size: 20px;
+	}
+	.About .section {
+		padding: 5% 5%;
+	}
 }

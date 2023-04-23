@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import axios from "axios";
+import uniqid from "uniqid";
 import "./reservations.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 // const alphabet = ["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "f", "F", "g", "G", "h", "H", "i", "I", "j", "J", "k", "K", "l", "L", "m", "M", "n", "N", "o", "O", "p", "P", "q", "Q", "r", "R", "s", "S", "t", "T", "u", "U", "v", "V", "w", "W", "x", "X", "y", "Y", "z", "Z"];
 const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+const randumb = uniqid("LAZZAR-");
+export const reservationNum = randumb;
 
 function Reservations(props) {
+	const navigate = useNavigate();
 	const [formData, setFormData] = useState({
 		fname: "",
 		lname: "",
 		partysize: "",
 		countrycode: "",
 		phonenumber: "",
+		resnum: randumb,
 	});
 
 	const handleSubmit = (e) => {
@@ -63,8 +68,7 @@ function Reservations(props) {
 				countrycode: "",
 				phonenumber: "",
 			});
-			window.location.href = "/success";
-			alert("Your reservation has been made!");
+			navigate("/success");
 		}
 	};
 

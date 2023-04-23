@@ -1,26 +1,25 @@
-.MemberCard{
-    width: 400px;
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0);
-    border: white 1px solid;
-    color: white;
-    margin: 50px 20px 0px 20px;
-    padding: 10px;
+.MemberCard {
+	width: 400px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-top: white 3px solid;
+	color: white;
+	margin: 50px 20px 0px 20px;
+	padding: 10px;
 }
 
-.MemberCard h1{
-    border-bottom: 1px white solid;
+.MemberCard h1 {
+	border-bottom: 1px white solid;
 }
 
-.MemberCard img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 1px white solid;
+.MemberCard img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
 }
 
-@media screen and (max-width: 1000px){
-    .MemberCard{
-        width: 250px;
-    }
+@media screen and (max-width: 1000px) {
+	.MemberCard {
+		width: 250px;
+	}
 }

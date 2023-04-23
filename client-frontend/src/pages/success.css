@@ -3,14 +3,15 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-	.greeting {
-		height: 64vh;
-	}
+#resNum {
+	color: cyan;
+	padding: 10px;
 }
 
-@media screen and (max-width: 700px) {
-	.greeting {
-		height: 50vh;
-	}
+.message .warning {
+	color: cyan;
+}
+
+.message {
+	padding: 0% 10%;
 }
