@@ -5,7 +5,22 @@ import "./reservations.css";
 import { useNavigate } from "react-router-dom";
 
 // const alphabet = ["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "f", "F", "g", "G", "h", "H", "i", "I", "j", "J", "k", "K", "l", "L", "m", "M", "n", "N", "o", "O", "p", "P", "q", "Q", "r", "R", "s", "S", "t", "T", "u", "U", "v", "V", "w", "W", "x", "X", "y", "Y", "z", "Z"];
-const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+const numbers = [
+	"0",
+	"1",
+	"2",
+	"3",
+	"4",
+	"5",
+	"6",
+	"7",
+	"8",
+	"9",
+	"-",
+	"(",
+	")",
+	"+",
+];
 const randumb = uniqid("LAZZAR-");
 export const reservationNum = randumb;
 
@@ -53,7 +68,7 @@ function Reservations(props) {
 		} else if (filteredCode != unfilteredCode) {
 			e.preventDefault();
 			alert("Invalid CountryCode!");
-		} else if (filteredPhone != unfilteredPhone || filteredPhone.length != 10) {
+		} else if (filteredPhone != unfilteredPhone || filteredPhone.length > 13) {
 			e.preventDefault();
 			alert("Invalid PhoneNumber!");
 		} else {

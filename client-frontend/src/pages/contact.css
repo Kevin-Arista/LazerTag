@@ -9,16 +9,3 @@
 .Contact #ezzy {
 	font-size: 10px !important;
 }
-
-.Contact .team-section .hidden-left {
-	opacity: 0;
-	filter: blur(5px);
-	transform: translateX(-100%);
-	transition: all 3s;
-}
-
-.Contact .team-section .show-left {
-	opacity: 1;
-	filter: blur(0);
-	transform: translateX(0);
-}

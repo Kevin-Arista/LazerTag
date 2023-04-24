@@ -8,42 +8,52 @@ import Sophya from "../assets/Sophya.jpg";
 import Rosnel from "../assets/Rosnel.jpg";
 import Hannah from "../assets/Hannah.JPG";
 
-const observer = new IntersectionObserver((entries) => {
-	entries.forEach((entry) => {
-		console.log(entry);
-		if (entry.isIntersecting) {
-			console.log("fade in");
-			entry.target.classList.add("show-left");
-		} else {
-			console.log("fade out");
-			entry.target.classList.remove("show-left");
-		}
-	});
-});
-
-const hiddenElements = document.querySelectorAll(".hidden-left");
-hiddenElements.forEach((el) => observer.observe(el));
-
 function Contact(props) {
 	return (
 		<div className="Contact">
+			<h1 className="team">Software Team</h1>
+			<hr />
+
+			<div className="team-section">
+				<MemberCard
+					name="Evelio Velez"
+					description="designed, tested, and developed software for the blasters &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"
+					major="Intended Major: Computer Science"
+					png={Evelio}
+					linkedin="//linkedin.com"
+					github="//github.com"
+					displayable1="no"
+					displayable2="no"
+				/>
+				<MemberCard
+					name="Kevin Arista"
+					description="UX/UI, developed application for LazzarX using MERNstack"
+					major="Intended Major: Computer Science"
+					png={Kevin}
+					linkedin="https://www.linkedin.com/in/kevin-arista/"
+					github="https://github.com/Kevin-Arista"
+				/>
+			</div>
 			<h1 className="team">Electrical Team</h1>
 			<hr />
 
 			<div className="team-section">
 				<MemberCard
-					className="hidden-left"
 					name="Hannah"
 					description="worked on circuit design and schematics of the blaster model"
 					major="Intended Major: Electrical Engineering"
 					png={Hannah}
+					linkedin="//linkedin.com/in/hannahchen-"
+					github="//github.com"
+					displayable2="no"
 				/>
 				<MemberCard
-					className="hidden-right"
 					name="Rosnel Leyva"
 					description="worked on circuit design and schematics of the blaster model"
 					major="Intended: Electrical Engineering B.S."
 					png={Rosnel}
+					linkedin="//linkedin.com/in/rosnel-leyva-cortes-926608200"
+					github="//github.com/Rosnel14"
 				/>
 			</div>
 
@@ -52,39 +62,23 @@ function Contact(props) {
 
 			<div className="team-section">
 				<MemberCard
-					className="hidden-left"
 					name="Sophya Elkihel"
 					description="researched and sampled different architecture for the blaster design"
 					major="Intended Major: Mechanical Engineering"
 					png={Sophya}
+					linkedin="//linkedin.com/in/sophya-elkihel-3009851a2"
+					github="//github.com"
+					displayable2="no"
 				/>
 				<MemberCard
-					className="hidden-right"
 					id="ezzy"
 					name="Ezzy Aldaylam"
 					description="designed and developed the blaster's design into production"
 					major="Intended Major: Mechanical Engineering"
 					png={Ezzadin}
-				/>
-			</div>
-
-			<h1 className="team">Software Team</h1>
-			<hr />
-
-			<div className="team-section">
-				<MemberCard
-					className="hidden-left"
-					name="Evelio Velez"
-					description="designed, tested, and developed software for the blasters"
-					major="Intended Major: Computer Science"
-					png={Evelio}
-				/>
-				<MemberCard
-					className="hidden-right"
-					name="Kevin Arista"
-					description="UX/UI, developed application for LazzarX using MERNstack"
-					major="Intended Major: Computer Science"
-					png={Kevin}
+					linkedin="//linkedin.com/in/ezzaddin-aldaylam-4472981b1"
+					github="//github.com"
+					displayable2="no"
 				/>
 			</div>
 		</div>

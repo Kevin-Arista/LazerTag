@@ -4,14 +4,70 @@
 
 .About .section {
 	margin-bottom: 100px;
-	padding: 5% 20%;
+	padding: 5% 10%;
 	background-color: rgba(255, 255, 255, 0.15);
-	margin: 0px 100px 50px 100px;
+	margin: 0px 20% 100px 20%;
 	border-top: 3px solid white;
+}
+
+.About .section p {
+	font-size: 20px;
 }
 
 .About .heading {
 	font-size: 30px;
+	margin: none;
+}
+
+.About .section #columbia {
+	font-size: 20px;
+	padding: 0px 5px;
+	color: rgb(0, 191, 255);
+}
+.About .section #columbia:hover {
+	color: white;
+}
+
+.About .desc-modeling {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.About .info {
+	margin: 0px 20% 0px 20%;
+	border: 1px solid white;
+}
+
+.About .timeframe {
+	margin: 0px 20% 0px 20%;
+	padding: 5% 0% 0%;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.About .timeframe img {
+	width: 100%;
+	height: 50%;
+	border: 1px solid white;
+	opacity: 0.5;
+}
+.About .timeframe img:hover {
+	opacity: 1;
+}
+
+.About .filler {
+	height: 300px;
+}
+
+.About .camera-pic {
+	width: 60%;
+	border: 3px solid white;
+}
+
+@media screen and (min-width: 700px) {
+	.About .camera-pic {
+		width: 40%;
+	}
 }
 
 @media screen and (max-width: 700px) {

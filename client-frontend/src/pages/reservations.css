@@ -38,6 +38,11 @@ input:focus {
 	height: 70px;
 }
 
+#button:hover {
+	background-color: white;
+	color: black;
+}
+
 @media screen and (max-width: 1000px) {
 	.Reservations {
 		margin: 10% 2% 10% 2%;

@@ -1,3 +1,7 @@
+.Home {
+	overflow-x: hidden;
+}
+
 .Home #hero-text {
 	font-size: 200px;
 	margin-bottom: -10px;
@@ -11,9 +15,81 @@
 	color: cyan;
 }
 
+.Home .section {
+	margin-bottom: 100px;
+	padding: 5% 10%;
+	margin: 0px 20% 10% 20%;
+}
+
+.Home .section p {
+	font-size: 30px;
+}
+
+.Home .show1 {
+	animation-name: showing;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
+.Home .show2 {
+	animation-name: showing;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 7s;
+}
+
+.Home .show3 {
+	animation-name: showing;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 12s;
+}
+
+.Home #mudd {
+	width: 70%;
+	border: 2px solid white;
+}
+
+@keyframes showing {
+	0% {
+		opacity: 0;
+		filter: blur(5px);
+		transform: translateX(-100%);
+		transition: all 3s;
+	}
+	25% {
+		opacity: 1;
+		filter: blur(0);
+		transform: translateX(0);
+		transition: all 4s;
+	}
+	50% {
+		opacity: 1;
+		filter: blur(0);
+		transform: translateX(0);
+		transition: all 4s;
+	}
+	75% {
+		opacity: 1;
+		filter: blur(0);
+		transform: translateX(0);
+		transition: all 4s;
+	}
+	100% {
+		opacity: 0;
+		filter: blur(5px);
+		transform: translateX(200%);
+		transition: all 4s;
+	}
+}
+
 @media screen and (max-width: 1000px) {
 	.Home #hero-text {
 		font-size: 170px;
+	}
+	.Home .section p {
+		font-size: 20px;
 	}
 }
 

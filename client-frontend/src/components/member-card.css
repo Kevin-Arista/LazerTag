@@ -8,14 +8,34 @@
 	padding: 10px;
 }
 
-.MemberCard h1 {
-	border-bottom: 1px white solid;
-}
-
-.MemberCard img {
+.MemberCard .prof-pic {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
+	opacity: 0.7;
+}
+
+.MemberCard .prof-pic:hover {
+	opacity: 1;
+}
+
+.MemberCard #github {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 0px 20px;
+	background-color: rgb(214, 214, 214);
+}
+.MemberCard #linkedin {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 0px 20px;
+	background-color: black;
+}
+
+.MemberCard .no {
+	display: none;
 }
 
 @media screen and (max-width: 1000px) {
