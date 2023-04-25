@@ -6,16 +6,16 @@
 	color: white;
 	margin: 50px 20px 0px 20px;
 	padding: 10px;
+	opacity: 0.5;
 }
 
 .MemberCard .prof-pic {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	opacity: 0.7;
 }
 
-.MemberCard .prof-pic:hover {
+.MemberCard:hover {
 	opacity: 1;
 }
 

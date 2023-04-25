@@ -5,6 +5,7 @@
 
 .Reservations h3 {
 	border: 1px white solid;
+	width: 100%;
 }
 
 .Reservations form {
@@ -23,7 +24,7 @@ input[type="text"] {
 	display: block;
 	margin: auto;
 	height: 50px;
-	width: 99%;
+	width: 98%;
 }
 
 input:focus {

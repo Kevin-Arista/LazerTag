@@ -19,7 +19,7 @@ function About(props) {
 					This project was developed by our team to fullfill our Common Project
 					in
 					<a id="columbia" href="//columbia.edu" target="_blank">
-						Columbia University
+						Columbia University's
 					</a>
 					famous Art of Engineering course. What initially started as a simple
 					sketch, eventually came to production.
