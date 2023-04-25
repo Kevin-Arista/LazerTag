@@ -39,7 +39,7 @@ function Contact(props) {
 
 			<div className="team-section">
 				<MemberCard
-					name="Hannah"
+					name="Hannah Chen"
 					description="worked on circuit design and schematics of the blaster model"
 					major="Intended Major: Electrical Engineering"
 					png={Hannah}
@@ -71,7 +71,7 @@ function Contact(props) {
 					displayable2="no"
 				/>
 				<MemberCard
-					name="Ezzadin Aldaylam"
+					name="Ezzaddin Aldaylam "
 					description="designed and developed the blaster's design into production"
 					major="Intended Major: Mechanical Engineering"
 					png={Ezzadin}
