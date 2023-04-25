@@ -6,6 +6,8 @@ import detailing from "../assets/detailing.png";
 import assembling from "../assets/assembling.png";
 import designing from "../assets/designing.png";
 import prototyping from "../assets/prototyping.png";
+import drafting from "../assets/drafting.jpeg";
+import simulating from "../assets/simulating.jpeg";
 
 function About(props) {
 	return (
@@ -56,6 +58,20 @@ function About(props) {
 				<hr />
 				<br />
 				<img className="camera-pic" src={soldering} alt="soldering"></img>
+			</section>
+
+			<section className="desc-modeling">
+				<h1 className="heading">Drafting</h1>
+				<hr />
+				<br />
+				<img className="camera-pic" src={drafting} alt="soldering"></img>
+			</section>
+
+			<section className="desc-modeling">
+				<h1 className="heading">Simulating</h1>
+				<hr />
+				<br />
+				<img className="camera-pic" src={simulating} alt="soldering"></img>
 			</section>
 
 			<section className="desc-modeling">

@@ -73,9 +73,11 @@ function Reservations(props) {
 			alert("Invalid PhoneNumber!");
 		} else {
 			e.preventDefault();
-			axios.post("//localhost:4000/appointments/post", formData).then((res) => {
-				console.log(res.status, res.data);
-			});
+			axios
+				.post("https://lazzarx-server.onrender.com/appointments/post", formData)
+				.then((res) => {
+					console.log(res.status, res.data);
+				});
 			setFormData({
 				fname: "",
 				lname: "",

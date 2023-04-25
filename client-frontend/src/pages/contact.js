@@ -71,14 +71,14 @@ function Contact(props) {
 					displayable2="no"
 				/>
 				<MemberCard
-					id="ezzy"
-					name="Ezzy Aldaylam"
+					name="Ezzadin Aldaylam"
 					description="designed and developed the blaster's design into production"
 					major="Intended Major: Mechanical Engineering"
 					png={Ezzadin}
 					linkedin="//linkedin.com/in/ezzaddin-aldaylam-4472981b1"
 					github="//github.com"
 					displayable2="no"
+					special="ezzy"
 				/>
 			</div>
 		</div>
