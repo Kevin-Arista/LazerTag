@@ -21,10 +21,9 @@ input[type="text"] {
 	font-family: monospace;
 	font-size: 30px;
 	border: 1px white solid;
-	display: block;
 	margin: auto;
 	height: 50px;
-	width: 98%;
+	width: 95%;
 }
 
 input:focus {
