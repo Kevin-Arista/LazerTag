@@ -23,7 +23,7 @@ input[type="text"] {
 	border: 1px white solid;
 	margin: auto;
 	height: 50px;
-	width: 95%;
+	width: 100%;
 }
 
 input:focus {
@@ -52,5 +52,8 @@ input:focus {
 @media screen and (max-width: 700px) {
 	.Reservations form {
 		margin: 10% 0 10% 0;
+	}
+	input[type="text"] {
+		width: 90%;
 	}
 }
