@@ -17,11 +17,11 @@ function Contact(props) {
 			<div className="team-section">
 				<MemberCard
 					name="Evelio Velez"
-					description="designed, tested, and developed software for the blasters &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"
+					description="designed, tested, and developed software for the blasters"
 					major="Intended Major: Computer Science"
 					png={Evelio}
 					linkedin="//linkedin.com"
-					github="//https://github.com/evelez0101"
+					github="https://github.com/evelez0101"
 					displayable1="no"
 				/>
 				<MemberCard
