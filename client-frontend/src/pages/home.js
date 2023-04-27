@@ -55,7 +55,14 @@ function Home(props) {
 				</section>
 			</div>
 
-			<img id="mudd" src={genbodymeeting} alt="mudd building"></img>
+			<iframe
+				id="comercial"
+				height="315"
+				src="https://www.youtube.com/embed/MP8n0kysdkA"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen></iframe>
 		</div>
 	);
 }
