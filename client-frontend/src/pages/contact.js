@@ -21,7 +21,7 @@ function Contact(props) {
 					major="Intended Major: Computer Science"
 					png={Evelio}
 					linkedin="//linkedin.com"
-					github="//https://youtu.be/MP8n0kysdkA"
+					github="//https://github.com/evelez0101"
 					displayable1="no"
 				/>
 				<MemberCard
