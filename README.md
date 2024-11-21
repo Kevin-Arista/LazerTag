@@ -1,5 +1,12 @@
 # LazzarX (MERN Stack)
 
+The application is live and accessible at:
+https://lazzarx.onrender.com/
+
+This project is hosted using Render’s free tier, which may cause the site to take a few seconds to load initially after prolongue periods of inactivity.
+
+#### NOTE from Developer: Feel free to fill out the form and get your own form-confirmation! Try different iputs and watch the form validators kick in!
+
 ## 🚨 Deprecation Notice
 
 This project is **no longer maintained** and is considered **deprecated**.  
@@ -22,6 +29,7 @@ This is a full-stack reservations application built using the MERN (MongoDB, Exp
 - **Modern Design**: Clean, intuitive UI with React.
 - **Scalable Backend**: Built with Node.js and Express for efficient performance.
 - **Data Persistence**: MongoDB securely stores all reservation data.
+- ***
 
 ---
 
@@ -32,3 +40,7 @@ This is a full-stack reservations application built using the MERN (MongoDB, Exp
 - **Database**: MongoDB
 - **Form Validation**: Custom JavaScript validation logic
 - **Unique Identifier Logic**: `uniqid` library
+
+## Full Stack Developer
+
+Kevin Arista Solis, owner of the repository, in charge of designining and engineering both the frontend and backened of the entire repository.
